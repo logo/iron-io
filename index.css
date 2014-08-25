@@ -1,21 +1,2 @@
-
-/**
- * Iron.io logo.
- */
-
-.logo[data-logo="Iron.io"] {
-  width: 2.777777777777778em;
-}
-
-.logo[data-logo="Iron.io"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0 0 0 0;
-}
-
-.logo[data-logo="Iron.io"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Iron.io"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
